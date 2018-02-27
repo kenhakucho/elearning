@@ -1,0 +1,21 @@
+ja:
+  activerecord:
+    models:
+      user: ユーザー
+    attributes:
+      user:
+        id: ID
+        name : 名前
+        email: メールアドレス
+        password: パスワード
+        password_confirmation: パスワード確認
+        registered: 登録日
+        registered_before_type_cast: 登録日
+        birthday: 生年月日
+        birthday_before_type_cast: 生年月日
+  errors:
+    messages:
+      invalid_date_format: の年・月・日いずれかが入力されていません
+      invalid_date: に不正な日付が入力されています
+
+
